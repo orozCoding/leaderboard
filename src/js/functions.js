@@ -1,4 +1,3 @@
-import { remove } from 'lodash';
 import main from './html';
 import scores from './newGame';
 
@@ -24,15 +23,15 @@ const addScore = async (name, score) => {
   fetch(scores, {
     method: 'POST',
     body: JSON.stringify({
-      'user': name,
-      'score': Number(score)
+      user: name,
+      score: Number(score),
     }),
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
   })
     .then((response) => response.json())
-    .then((json) => console.log(json));
+    .then((json) => json);
 };
 
 const createLi = (player) => {
@@ -77,6 +76,8 @@ const refreshButton = () => {
 const addEventListeners = () => {
   formEventListener();
   refreshButton();
-}
+};
 
-export { displayHtml, getScores, renderBoard, addEventListeners };
+export {
+  displayHtml, getScores, renderBoard, addEventListeners,
+};
