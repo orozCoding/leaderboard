@@ -82,9 +82,20 @@ ul li:nth-child(even) {
   gap: 15px;
 }
 
+#main-right form input {
+  padding: 5px;
+  color: #000000;
+  border: solid 2px #000000;
+}
+
+
 #form-btn {
   margin-top: 10px;
   align-self: flex-end;
+  border-radius: 0;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 0px 0px #000000;
 }
 
 .d-flex {
