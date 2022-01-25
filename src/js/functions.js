@@ -70,6 +70,9 @@ const formEventListener = () => {
       addScore(form.name.value, form.score.value);
       form.reset();
       alertSuccess();
+      setTimeout(() => {
+        renderBoard();
+      }, 3000);
     }
   });
 };
