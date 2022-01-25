@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +10,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #000;
 }
 
 html {
@@ -15,22 +18,29 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
 }
 
 ul {
   list-style: none;
-  border: solid 2px #000;
+  border: solid 2px #fff;
   width: 100%;
 }
 
 li {
   padding: 5px;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
   align-self: flex-start;
-  margin: 30px 30px;
+  margin: 30px 50px;
+  font-size: 40px;
+}
+
+#header-title {
+  color: rgb(60, 184, 255);
 }
 
 #main {
@@ -45,16 +55,14 @@ header {
   width: 40%;
 }
 
-#main-left button {
-  border-radius: 0;
-  padding: 5px;
-  background-color: white;
-  box-shadow: 2px 2px 0 0 #000;
-}
-
 #title-left {
   width: 100%;
   justify-content: space-between;
+}
+
+#title-left-text {
+ color: rgb(60, 184, 255);
+ font-size: 40px;
 }
 
 #scores-board {
@@ -62,16 +70,16 @@ header {
 }
 
 ul li {
-  color: black;
+  color: #fff;
   width: 100%;
 }
 
 ul li:nth-child(odd) {
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
 }
 
 ul li:nth-child(even) {
-  background-color: #e0e0e0;
+  background-color: #252525;
 }
 
 #main-right {
@@ -80,23 +88,53 @@ ul li:nth-child(even) {
   width: 40%;
 }
 
+#title-right-text {
+  color: rgb(60, 184, 255);
+ font-size: 40px;
+}
+
 #main-right form {
   gap: 15px;
 }
 
-#main-right form input {
+.form-input {
   padding: 5px;
-  color: #000;
+  color: #fff;
   border: solid 2px #000;
+  background-color: #000;
+  outline: #fff solid 1px;
+}
+
+.form-input::placeholder {
+  color: #fff;
+}
+
+#title-left-button,
+#form-btn {
+  padding: 5px;
+  background-color: #000;
+  box-shadow: 2px 2px 0 0 rgb(60, 184, 255);
+  color: #fff;
+  transition: all 0.4s;
 }
 
 #form-btn {
   margin-top: 10px;
   align-self: flex-end;
-  border-radius: 0;
+}
+
+#title-left-button:hover,
+#form-btn:hover {
   padding: 5px;
-  background-color: white;
-  box-shadow: 2px 2px 0 0 #000;
+  background-color: rgb(60, 184, 255);
+  box-shadow: 2px 2px 0 0 rgb(60, 184, 255);
+  color: #000;
+  transition: all 0.4s;
+}
+
+#form-alert {
+  color: rgb(60, 184, 255);
+  font-family: 'Poppins', sans-serif;
 }
 
 .d-flex {

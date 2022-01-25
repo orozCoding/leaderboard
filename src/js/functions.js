@@ -54,6 +54,14 @@ const renderBoard = async () => {
   });
 };
 
+const alertSuccess = () => {
+  const span = document.getElementById('form-alert');
+  span.textContent = 'Your score was submited';
+  setTimeout(() => {
+    span.textContent = '';
+  }, 3000);
+};
+
 const formEventListener = () => {
   const form = document.getElementById('user-form');
   form.addEventListener('submit', (e) => {
@@ -61,6 +69,7 @@ const formEventListener = () => {
     if (form.name.value !== '' && form.score.value !== '') {
       addScore(form.name.value, form.score.value);
       form.reset();
+      alertSuccess();
     }
   });
 };
