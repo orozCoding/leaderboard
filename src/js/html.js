@@ -1,7 +1,3 @@
-const header = `
-<h1 id="header-title">Leaderboard</h1>
-`;
-
 const main = `<div id="main-left" class="d-flex">
     <div id="title-left" class="d-flex row">
         <h2 id="title-left-text">Recent Scores</h2>
@@ -30,4 +26,4 @@ const main = `<div id="main-left" class="d-flex">
     </form>
 </div>`;
 
-export { header, main };
+export default main;
