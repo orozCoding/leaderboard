@@ -1,1 +1,4 @@
-import css from './css/styles.css';
+import './css/styles.css';
+import { displayHtml } from './js/functions';
+
+displayHtml();
