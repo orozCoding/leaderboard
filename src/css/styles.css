@@ -8,16 +8,18 @@ html, body{
   padding: 0;
   margin: 0;
 }
-html{
+
+html {
   height: 100%;
 }
+
 body{
   font-family: sans-serif;
 }
 
 ul {
   list-style: none;
-  border: solid 2px #000000;
+  border: solid 2px #000;
   width: 100%;
 }
 
@@ -27,7 +29,6 @@ li {
 
 header {
   align-self: flex-start;
-
   margin: 30px 30px;
 }
 
@@ -47,7 +48,7 @@ header {
   border-radius: 0;
   padding: 5px;
   background-color: white;
-  box-shadow: 2px 2px 0px 0px #000000;
+  box-shadow: 2px 2px 0 0 #000;
 }
 
 #title-left {
@@ -65,7 +66,7 @@ ul li {
 }
 
 ul li:nth-child(odd) {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 ul li:nth-child(even) {
@@ -84,10 +85,9 @@ ul li:nth-child(even) {
 
 #main-right form input {
   padding: 5px;
-  color: #000000;
-  border: solid 2px #000000;
+  color: #000;
+  border: solid 2px #000;
 }
-
 
 #form-btn {
   margin-top: 10px;
@@ -95,7 +95,7 @@ ul li:nth-child(even) {
   border-radius: 0;
   padding: 5px;
   background-color: white;
-  box-shadow: 2px 2px 0px 0px #000000;
+  box-shadow: 2px 2px 0 0 #000;
 }
 
 .d-flex {
