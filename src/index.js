@@ -1,4 +1,4 @@
 import './css/styles.css';
-import { displayHtml } from './js/functions';
+import displayHtml from './js/functions';
 
 displayHtml();

@@ -1,8 +1,8 @@
-import { html } from './html.js';
+import html from './html';
 
 const displayHtml = () => {
   const body = document.getElementById('body');
   body.innerHTML = html;
 };
 
-export { displayHtml };
+export default displayHtml;

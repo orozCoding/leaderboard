@@ -1,4 +1,4 @@
-export const html = `<header id="header">
+const html = `<header id="header">
 <h1 id="header-title">Leaderboard</h1>
 </header>
 <main id="main" class="d-flex row">
@@ -30,3 +30,5 @@ export const html = `<header id="header">
     </form>
 </div>
 </main>`;
+
+export default html;
