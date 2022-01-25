@@ -1,8 +1,11 @@
-import html from './html';
+import { header, main } from './html';
 
 const displayHtml = () => {
-  const body = document.getElementById('body');
-  body.innerHTML = html;
+  const headerDom = document.getElementById('header');
+  headerDom.innerHTML = header;
+
+  const mainDom = document.getElementById('main');
+  mainDom.innerHTML = main;
 };
 
 export default displayHtml;

@@ -1,8 +1,8 @@
-const html = `<header id="header">
+const header = `
 <h1 id="header-title">Leaderboard</h1>
-</header>
-<main id="main" class="d-flex row">
-<div id="main-left" class="d-flex">
+`;
+
+const main = `<div id="main-left" class="d-flex">
     <div id="title-left" class="d-flex row">
         <h2 id="title-left-text">Recent Scores</h2>
         <button type="button" id="title-left-button" class="click">Refresh</button>
@@ -28,7 +28,6 @@ const html = `<header id="header">
         <input type="text" name="score" id="input-score" placeholder="Your score">
         <input type="button" value="submit" id="form-btn" class="click">
     </form>
-</div>
-</main>`;
+</div>`;
 
-export default html;
+export { header, main };
