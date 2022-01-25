@@ -14,7 +14,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 - Install Node.js
 - Install text editor of your choice (eg. VS Code)
-- Clone the repository from [here](https://github.com/orozCoding/todolist)
+- Clone the repository from [here](https://github.com/orozCoding/leaderboard)
 - On the root directory, run 'npm install' on the terminal to install packages.
 - Run 'npm start' on the terminal to start live server.
 
