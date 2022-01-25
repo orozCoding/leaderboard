@@ -16,6 +16,7 @@ const main = `<div id="main-left" class="d-flex">
         <label for="score"></label>
         <input type="number" name="score" id="input-score" placeholder="Your score">
         <input type="submit" value="submit" id="form-btn" class="click">
+        <span id="form-alert"></span>
     </form>
 </div>`;
 
