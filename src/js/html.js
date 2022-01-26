@@ -12,10 +12,11 @@ const main = `<div id="main-left" class="d-flex">
     </div>
     <form action="" id="user-form" class="d-flex">
         <label for="name"></label>
-        <input type="text" name="name" id="input-name" placeholder="Your name">
+        <input type="text" name="name" id="input-name" class="form-input" placeholder="Your name">
         <label for="score"></label>
-        <input type="number" name="score" id="input-score" placeholder="Your score">
+        <input type="number" name="score" id="input-score" class="form-input" placeholder="Your score">
         <input type="submit" value="submit" id="form-btn" class="click">
+        <span id="form-alert"></span>
     </form>
 </div>`;
 
