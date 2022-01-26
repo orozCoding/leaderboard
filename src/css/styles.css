@@ -61,8 +61,8 @@ header {
 }
 
 #title-left-text {
- color: rgb(60, 184, 255);
- font-size: 40px;
+  color: rgb(60, 184, 255);
+  font-size: 40px;
 }
 
 #scores-board {
@@ -90,7 +90,7 @@ ul li:nth-child(even) {
 
 #title-right-text {
   color: rgb(60, 184, 255);
- font-size: 40px;
+  font-size: 40px;
 }
 
 #main-right form {
